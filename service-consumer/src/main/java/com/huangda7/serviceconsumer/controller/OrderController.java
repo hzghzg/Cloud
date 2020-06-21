@@ -9,12 +9,11 @@ import org.springframework.web.client.RestTemplate;
 
 @RestController
 public class OrderController {
-    private String originServiceAddress = "http://localhost:8888";
     @Autowired
     RestTemplate restTemplate;
     @GetMapping("/orders")
     public ResponseEntity<String> getOrderInformation(){
-        ResponseEntity<String> orderInformation = restTemplate.getForEntity(originServiceAddress + "/orders", String.class);
+        ResponseEntity<String> orderInformation = restTemplate.getForEntity("http://SERVICE-PROVIDER/orders", String.class);
         return orderInformation;
     }
 }
