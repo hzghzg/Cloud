@@ -7,12 +7,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="service-consumer" />
+        <module name="register-center-eureka" />
         <module name="service-provider" />
         <module name="service-provider (1)" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Cloud" target="1.8" />
+      <module name="register-center-eureka" target="1.8" />
       <module name="service-consumer" target="1.8" />
       <module name="service-provider" target="1.8" />
       <module name="service-provider (1)" target="1.5" />
@@ -21,6 +23,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="register-center-eureka" options="-parameters" />
       <module name="service-consumer" options="-parameters" />
       <module name="service-provider" options="-parameters" />
       <module name="spring-cloud" options="-parameters" />
