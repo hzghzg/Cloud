@@ -8,4 +8,8 @@ public class OrderService {
         String orderInformation = "远程商品信息";
         return orderInformation;
     }
+
+    public String getEmptyOrderInformation(String id) {
+        return "1".equals(id) ? "商品1信息" : null;
+    }
 }
