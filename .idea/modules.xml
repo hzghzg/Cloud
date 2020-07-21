@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/Cloud.iml" filepath="$PROJECT_DIR$/.idea/Cloud.iml" />
       <module fileurl="file://$PROJECT_DIR$/register-center-eureka/register-center-eureka.iml" filepath="$PROJECT_DIR$/register-center-eureka/register-center-eureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/service-consumer/service-consumer.iml" filepath="$PROJECT_DIR$/service-consumer/service-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-consumer-feign/service-consumer-feign.iml" filepath="$PROJECT_DIR$/service-consumer-feign/service-consumer-feign.iml" />
       <module fileurl="file://$PROJECT_DIR$/service-provider/service-provider.iml" filepath="$PROJECT_DIR$/service-provider/service-provider.iml" />
       <module fileurl="file://$PROJECT_DIR$/../service-provider/service-provider (1).iml" filepath="$PROJECT_DIR$/../service-provider/service-provider (1).iml" />
     </modules>
