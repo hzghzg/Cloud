@@ -19,6 +19,7 @@
         <module>../service-consumer</module>
         <module>../service-consumer-feign</module>
         <module>../register-center-eureka</module>
+        <module>../dashboard</module>
     </modules>
 
     <properties>
