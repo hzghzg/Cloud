@@ -18,3 +18,8 @@ eureka:
   client:
     service-url:
       defaultZone: http://localhost:7001/eureka/
+logging:
+  level:
+    com.huangda7.serviceprovider: debug
+  file:
+    path: D:/Log
